@@ -1,3 +1,28 @@
-.badge{
-    background-color: #4aaaa5;
+.wrapper{
+    background-image: url(../images/background-image.png);
+    height: auto;
+    z-index: 0;
+}
+html, body{
+    height: 100%;
+    
+}
+.container{
+    background: white;
+}
+h2{
+    color: white;
+    background: #4aaaa5;
+}
+.light-line{
+    height: 2px;
+    background: #4aaaa5;
+}
+.col-md-8{
+    color: #666666;
+}
+.img-fluid{
+    max-width: 300px;
+    max-height: 300px;
+    margin: 20px;
 }
