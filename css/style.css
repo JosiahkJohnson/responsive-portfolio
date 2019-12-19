@@ -10,19 +10,27 @@ html, body{
 .container{
     background: white;
 }
+.content{
+    max-height: 960px;
+    margin-left: 25%;
+    padding: 2%;
+    max-width: 50%;
+    background: white;
+}
 h2{
-    color: white;
-    background: #4aaaa5;
+    padding: 2%;
+    color: #4aaaa5;
 }
 .light-line{
+    width: auto;
+    max-width: 98%;
+    margin: 1%;
     height: 2px;
     background: #4aaaa5;
 }
-.col-md-8{
-    color: #666666;
-}
-.img-fluid{
+.responsive{
+    width: 100%;
     max-width: 300px;
-    max-height: 300px;
+    height: auto;
     margin: 20px;
 }
