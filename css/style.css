@@ -34,3 +34,16 @@ h2{
     height: auto;
     margin: 20px;
 }
+.card{
+    max-width: 150px;
+    max-height: 100px;
+}
+.card-img-overlay{
+    padding: 0%;
+}
+.card-title{
+    text-align: center;
+    background: #4aaaa5;
+    width: 100%;
+    margin: 10%;
+}
