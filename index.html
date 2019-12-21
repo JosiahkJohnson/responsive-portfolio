@@ -9,29 +9,50 @@
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 
-    <span class="badge badge-primary">Josiah Johnson</span>
+    <div class="row">
+      
+      <!-- Empty Column -->
+      <div class="col-sm-3"></div>
+      
+      <!-- Name Title -->
+      <div class="col-sm-3 text-center">
+        <h1>Josiah Johnson</h1>
+      </div>
+      
+      <div class="col-sm-3">
+        <!-- Create the Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
-    <!-- Collapsed navbar button -->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarNav">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+          <!-- The button that appears when the screen gets to small and the navbar collapses -->
+          <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <!-- The Navbar's content -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              
+              <!-- About Me Page button -->
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">About Me</a>
+              </li>
 
-    <!-- Navbar content -->
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">About Me <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+              <!-- Portfolio page button -->
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </li>
+
+              <!-- Contact Page button -->
+              <li class="nav-item">
+                <a href="contact.html" class="nav-link">Contact</a>
+              </li>
+
+            </ul>
+          </div>
+        </nav>
+      </div>
+      
+    </div>
 </head>
 <body>
     
@@ -41,27 +62,25 @@
     <br>
     <!--Holds the content of the page-->
     <div class="content">
-      <br>
       <!--First line-->
       <div class="row">
           
         <!--Add a space on the left margin-->
-        <div class="col-sm-2"></div>
+        <!-- <div class="col-sm-2"></div> -->
           
         <!--Title of the page-->
-        <div class="col-sm-2">
+        <div class="col-sm-12">
           <h2>About Me</h2>
         </div>
       </div>
 
-      <br>
       <!--Decorative line-->
       <div class="row">
         
         <!--Left Margin space-->
-        <div class="col-sm-2"></div>
+        <!-- <div class="col-sm-2"></div> -->
         <!--size of decorative line-->
-        <div class="col-sm-8">
+        <div class="col-sm-12">
           <!--The line itself-->
           <div class="light-line"></div>
         </div>
@@ -72,9 +91,9 @@
       <!--The main information of the page, contains the image and paragraphs about myself.-->
       <div class="row">
         <!--empty left margin space, positioning-->
-        <div class="col-sm-2"></div>
+        <!-- <div class="col-sm-2"></div> -->
         
-        <div class="col-sm-8 text-info">
+        <div class="col-sm-12 text-info">
           <img src="images/picture-of-me.jpg" class="responsive float-left" alt="profile picture">
           
           <p>My name's Josiah. I'm 26 years old. I'm currently focused on learning ever-changing field of web-development.</p>
@@ -94,12 +113,11 @@
 </body>
 
 <!-- Footer -->
-<footer class="fixed-bottom">
-
+<footer class="page-footer fixed-bottom font-small">
+  <div class="footer-line bg-info"></div>
   <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">© Copyright</div>
-  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3 bg-secondary">Copyright</div>
 
 </footer>
-<!-- Footer -->
+
 </html>
