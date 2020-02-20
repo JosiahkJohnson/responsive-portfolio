@@ -51,3 +51,6 @@ h2{
     width: 100%;
     top: 60%;
 }
+.description-text{
+    font-weight: bolder;
+}
